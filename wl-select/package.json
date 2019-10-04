@@ -1,0 +1,34 @@
+{
+  "name": "wl-select",
+  "version": "0.2.4",
+  "description": "",
+  "main": "lib/index",
+  "module": "es/index",
+  "homepage": "https://github.com/super-lin0/",
+  "repository": "https://github.com/super-lin0/redux-study/tree/master/wl-select",
+  "author": "super-lin0 <changsha.wulin@gmail.com>",
+  "keywords": [
+    "react",
+    "component",
+    "rc-tools",
+    "university-select"
+  ],
+  "files": [
+    "assets/*.css",
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "compile": "rc-tools run compile --babel-runtime",
+    "prepublish": "rc-tools run compile --babel-runtime"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "rc-tools": "^8.1.6"
+  }
+}
